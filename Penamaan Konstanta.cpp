@@ -8,9 +8,6 @@ BAHASA  : C++
 
 using namespace std;
 
-const string Kampus = "Massachusetts Institute of Technology";
-const double IPK = 3.99;
-
 int main()
 {
   const string Kampus = "Massachusetts Institute of Technology";
