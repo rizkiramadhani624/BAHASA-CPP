@@ -17,14 +17,28 @@ struct Siswa {
 
 int main()
 {
-  struct Siswa siswa01;
+  struct Siswa siswa01,siswa02, siswa03;
 
   siswa01.nama = "Hary Purnomo";
   siswa01.sekolah = "SMAN 1 Medan";
   siswa01.uangSaku = 50000;
 
-  cout << siswa01.nama <<" bersekolah di " << siswa01.sekolah << endl;
-  cout << "dengan uang saku " << siswa01.uangSaku << " per hari" << endl;
+  siswa02.nama = "Yoga Prawira ";
+  siswa02.sekolah = "SMAN 1 Sibolga";
+  siswa02.uangSaku = 50000;
+
+  siswa03.nama = "Isra Syura";
+  siswa03.sekolah = "SMAN 1 Padang Sidempuan";
+  siswa03.uangSaku = 75000;
+
+  cout << siswa01.nama <<" bersekolah di " << siswa01.sekolah;
+  cout << " dengan uang saku " << siswa01.uangSaku << " per hari" << endl;
+
+  cout << siswa02.nama <<" bersekolah di " << siswa02.sekolah;
+  cout << " dengan uang saku " << siswa02.uangSaku << " per hari" << endl;
+
+  cout << siswa03.nama <<" bersekolah di " << siswa03.sekolah;
+  cout << " dengan uang saku " << siswa03.uangSaku << " per hari" << endl;
 
   return 0;
 }
