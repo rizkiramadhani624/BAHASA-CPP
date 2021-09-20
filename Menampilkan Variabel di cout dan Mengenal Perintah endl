@@ -1,0 +1,20 @@
+#include <iostream>
+
+/*
+NAMA    : RIZKI RAMADHANI
+JUDUL   : Menampilkan Variabel di cout dan Mengenal Perintah endl
+BAHASA  : C++
+Tanggal : 20/09/2021
+*/
+
+using namespace std;
+
+int main()
+{
+  string foo = "C++";
+  int bar = 45;
+
+  cout << "Belajar Bahasa " << foo << " di Massachusetts Institute of Technology" << endl;
+  cout << "Semangat "<< bar << endl;
+  return 0;
+}
