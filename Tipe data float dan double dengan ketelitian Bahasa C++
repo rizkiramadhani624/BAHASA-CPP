@@ -1,0 +1,31 @@
+#include <iostream>
+#include <iomanip>
+
+/*
+NAMA    : RIZKI RAMADHANI
+JUDUL   : Tipe data float dan double dengan ketelitian Bahasa C++
+BAHASA  : C++
+Tanggal : 20/09/2021
+*/
+
+using namespace std;
+
+int main()
+{
+  double var1 = 3.1415926;
+  double var2 = 1111.1234;
+  double var3 = -1000000.11;
+  double var4 = 0.00123456789;
+  double var5 = -99.99999;
+
+  cout << fixed;
+  cout << setprecision(2);
+
+  cout << var1 << endl;
+  cout << var2 << endl;
+  cout << var3 << endl;
+  cout << var4 << endl;
+  cout << var5 << endl;
+
+  return 0;
+}
