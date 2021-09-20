@@ -1,0 +1,27 @@
+#include <iostream>
+
+/*
+NAMA    : RIZKI RAMADHANI
+JUDUL   : Menginput Banyak Data Dengan cout
+BAHASA  : C++
+Tanggal : 20/09/2021
+*/
+using namespace std;
+
+int main()
+{
+  string nama;
+  int umur;
+
+  cout << "Masukkan nama: ";
+  cin  >> nama;
+
+  cout << "Masukkan umur: ";
+  cin  >> umur;
+
+  cout << "\n";
+
+  cout << "Selamat Belajar C++ " << nama << ", Semangat!!" << endl;
+  cout << "Usia anda saat ini " << umur << " tahun" << endl;
+  return 0;
+}
