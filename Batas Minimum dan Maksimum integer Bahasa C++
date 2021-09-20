@@ -1,0 +1,35 @@
+#include <iostream>
+#include <limits>
+
+/*
+NAMA    : RIZKI RAMADHANI
+JUDUL   : Batas Minimum dan Maksimum integer Bahasa C++
+BAHASA  : C++
+Tanggal : 20/09/2021
+*/
+
+using namespace std;
+
+int main()
+{
+ cout << "Ukuran memory tipe data char: "  << sizeof(char) << " byte \n";
+ cout << "Ukuran memory tipe data short: " << sizeof(short) << " byte \n";
+ cout << "Ukuran memory tipe data int: "   << sizeof(int) << " byte \n";
+ cout << "Ukuran memory tipe data long: "  << sizeof(long) << " byte \n";
+
+ cout << endl;
+
+ cout << "Nilai minimal tipe data char: "  << SCHAR_MIN << endl;
+ cout << "Nilai minimal tipe data short: " << SHRT_MIN  << endl;
+ cout << "Nilai minimal tipe data int: "   << INT_MIN   << endl;
+ cout << "Nilai minimal tipe data long: "  << LONG_MIN  << endl;
+
+ cout << endl;
+
+ cout << "Nilai maksimal tipe data char: "  << SCHAR_MAX << endl;
+ cout << "Nilai maksimal tipe data short: " << SHRT_MAX  << endl;
+ cout << "Nilai maksimal tipe data int: "   << INT_MAX   << endl;
+ cout << "Nilai maksimal tipe data long: "  << LONG_MAX  << endl;
+
+ return 0;
+}
