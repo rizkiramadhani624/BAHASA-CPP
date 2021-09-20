@@ -1,0 +1,25 @@
+#include <iostream>
+
+/*
+NAMA    : RIZKI RAMADHANI
+JUDUL   : String sebagai array di C++
+BAHASA  : C++
+Tanggal : 21/09/2021
+*/
+
+using namespace std;
+
+int main()
+{
+  string var1 = "Belajar C++ di Massachusetts Institute of Technology";
+
+  cout << var1[0] << endl;
+  cout << var1[1] << endl;
+  cout << var1[2] << endl;
+  cout << var1[3] << endl;
+  cout << var1[4] << endl;
+  cout << var1[5] << endl;
+  cout << var1[6] << endl;
+
+  return 0;
+}
