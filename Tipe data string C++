@@ -1,0 +1,19 @@
+#include <iostream>
+
+/*
+NAMA    : RIZKI RAMADHANI
+JUDUL   : Tipe data string C++
+BAHASA  : C++
+Tanggal : 21/09/2021
+*/
+
+using namespace std;
+
+int main()
+{
+  string var1 = "Belajar \nC++ \ndi \"Massachusetts Institute of Technology\"";
+
+  cout << var1 << endl;
+
+  return 0;
+}
