@@ -1,0 +1,23 @@
+#include <iostream>
+
+/*
+NAMA    : RIZKI RAMADHANI
+JUDUL   : Tipe Array Bahasa C++ 2
+BAHASA  : C++
+Tanggal : 21/09/2021
+*/
+
+using namespace std;
+ 
+int main()
+{
+  char karakter[] = {'R', 'I', 'Z', 'K', 'I'};
+ 
+  cout << "Isi array pertama :" << karakter[0] <<endl;
+  cout << "Isi array kedua   :" << karakter[1] <<endl;
+  cout << "Isi array ketiga  :" << karakter[2] <<endl;
+  cout << "Isi array keempat :" << karakter[3] <<endl;
+  cout << "Isi array kelima  :" << karakter[4] <<endl;
+ 
+  return 0;
+}
