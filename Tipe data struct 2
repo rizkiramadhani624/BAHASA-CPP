@@ -1,0 +1,38 @@
+#include <iostream>
+
+/*
+NAMA    : RIZKI RAMADHANI
+JUDUL   : Tipe data struct 2
+BAHASA  : C++
+Tanggal : 21/09/2021
+*/
+
+using namespace std;
+ 
+struct Mahasiswa {
+  string nama;
+  string universitas;
+  unsigned int uangSaku;
+};
+ 
+int main()
+{
+  struct Mahasiswa Mahasiswa01;
+ 
+  cout << "==++ Pendaftaran Mahasiswa Baru ++==" << endl;
+  cout << "Nama: ";
+  getline(cin,Mahasiswa01.nama);
+ 
+  cout << "Universitas: ";
+  getline(cin,Mahasiswa01.universitas);
+ 
+  cout << "Uang saku: ";
+  cin >> Mahasiswa01.uangSaku;
+ 
+  cout << endl;
+ 
+  cout << Mahasiswa01.nama <<" Kuliah di " << Mahasiswa01.universitas;
+  cout << " dengan uang saku " << Mahasiswa01.uangSaku << " per hari" << endl;
+ 
+  return 0;
+}
