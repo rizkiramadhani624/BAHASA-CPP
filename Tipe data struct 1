@@ -1,0 +1,30 @@
+#include <iostream>
+
+/*
+NAMA    : RIZKI RAMADHANI
+JUDUL   : Tipe data struct 1
+BAHASA  : C++
+Tanggal : 21/09/2021
+*/
+
+using namespace std;
+
+struct Siswa {
+  string nama;
+  string sekolah;
+  unsigned int uangSaku;
+};
+
+int main()
+{
+  struct Siswa siswa01;
+
+  siswa01.nama = "Hary Purnomo";
+  siswa01.sekolah = "SMAN 1 Medan";
+  siswa01.uangSaku = 50000;
+
+  cout << siswa01.nama <<" bersekolah di " << siswa01.sekolah << endl;
+  cout << "dengan uang saku " << siswa01.uangSaku << " per hari" << endl;
+
+  return 0;
+}
