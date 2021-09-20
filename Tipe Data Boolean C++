@@ -1,0 +1,25 @@
+#include <iostream>
+
+/*
+NAMA    : RIZKI RAMADHANI
+JUDUL   : Tipe Data Boolean C++
+BAHASA  : C++
+Tanggal : 21/09/2021
+*/
+
+using namespace std;
+
+int main()
+{
+  bool var1, var2, var3;
+
+  var1 = 20 < 10;
+  var2 = 40 > 25;
+  var3 = 'A' == 'a';
+
+  cout << "Isi var1 = "  << var1 << endl;
+  cout << "Isi var2 = "  << var2 << endl;
+  cout << "Isi var3 = "  << var3 << endl;
+
+  return 0;
+}
