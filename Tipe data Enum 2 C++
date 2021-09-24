@@ -1,0 +1,53 @@
+#include <iostream>
+
+/*
+NAMA    : RIZKI RAMADHANI
+JUDUL   : Tipe data Enum 2 C++
+BAHASA  : C++
+Tanggal : 24/09/2021
+*/
+
+using namespace std;
+
+enum nama_hari {
+    minggu = 0,
+    senin = 1,
+    selasa = 2,
+    rabu = 3,
+    kamis = 4,
+    jumat = 5,
+    sabtu = 6
+};
+
+int main()
+{
+  cout <<"=========================================================== \n";
+  cout <<"================= Contoh Tipe Data Enum =================== \n";
+  cout <<"=========================================================== \n";
+  cout << "\n";
+
+  nama_hari var1;
+
+  var1 = senin;
+  cout << var1 << endl;
+
+  var1 = selasa;
+  cout << var1 << endl;
+
+  var1 = rabu;
+  cout << var1 << endl;
+
+  var1 = kamis;
+  cout << var1 << endl;
+
+  var1 = jumat;
+  cout << var1 << endl;
+
+  var1 = sabtu;
+  cout << var1 << endl;
+
+  var1 = minggu;
+  cout << var1 << endl;
+
+  return 0;
+}
