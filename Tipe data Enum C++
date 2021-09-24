@@ -1,0 +1,45 @@
+#include <iostream>
+
+/*
+NAMA    : RIZKI RAMADHANI
+JUDUL   : Tipe data Enum C++
+BAHASA  : C++
+Tanggal : 24/09/2021
+*/
+
+using namespace std;
+
+enum nama_hari {minggu, senin,selasa,rabu,kamis,jumat,sabtu};
+
+int main()
+{
+  cout <<"=========================================================== \n";
+  cout <<"================= Contoh Tipe Data Enum =================== \n";
+  cout <<"=========================================================== \n";
+  cout << "\n";
+
+  nama_hari var1;
+
+  var1 = senin;
+  cout << var1 << endl;
+
+  var1 = selasa;
+  cout << var1 << endl;
+
+  var1 = rabu;
+  cout << var1 << endl;
+
+  var1 = kamis;
+  cout << var1 << endl;
+
+  var1 = jumat;
+  cout << var1 << endl;
+
+  var1 = sabtu;
+  cout << var1 << endl;
+
+  var1 = minggu;
+  cout << var1 << endl;
+
+  return 0;
+}
