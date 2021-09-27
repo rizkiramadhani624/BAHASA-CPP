@@ -1,0 +1,43 @@
+#include <iostream>
+
+/*
+NAMA    : RIZKI RAMADHANI
+JUDUL   : Operator Aritmatika C++
+BAHASA  : C++
+Tanggal : 27/09/2021
+*/
+
+using namespace std;
+
+int main()
+{
+  cout <<"=========================================================== \n";
+  cout <<"============== Contoh Operator Aritmatika ================= \n";
+  cout <<"=========================================================== \n";
+  cout << "\n";
+
+  int a, b, c, d, e, f, g, h;
+  double i;
+
+  a = 8 + 4;
+  b = 9 - 2;
+  c = 2 * 3;
+  d = 10 + 3 - 7 * 4;
+  e = ( ( 10 +3 ) -7) * 4;
+  f = -79;
+  g = 21 / 3;
+  h = 100 % 7;
+  i = 32.0 / 7.0;
+
+  cout << "Isi variabel a: " << a << endl;
+  cout << "Isi variabel b: " << b << endl;
+  cout << "Isi variabel c: " << c << endl;
+  cout << "Isi variabel d: " << d << endl;
+  cout << "Isi variabel e: " << e << endl;
+  cout << "Isi variabel f: " << f << endl;
+  cout << "Isi variabel g: " << g << endl;
+  cout << "Isi variabel h: " << h << endl;
+  cout << "Isi variabel i: " << i << endl;
+
+  return 0;
+}
