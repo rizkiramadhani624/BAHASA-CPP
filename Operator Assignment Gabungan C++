@@ -1,0 +1,35 @@
+#include <iostream>
+
+/*
+NAMA    : RIZKI RAMADHANI
+JUDUL   : Operator Assignment Gabungan C++
+BAHASA  : C++
+Tanggal : 27/09/2021
+*/
+
+using namespace std;
+
+int main()
+{
+  cout <<"=========================================================== \n";
+  cout <<"============ Operator Assignment Gabungan C++  ============ \n";
+  cout <<"=========================================================== \n";
+  cout << "\n";
+
+  int a = 10, b = 10, c = 10, d = 10, e = 10, f = 10;
+  a += 5;
+  b -= 3;
+  c *= 3;
+  d /= 3;
+  e %= 3;
+  f <<= 2;
+
+  cout << "Hasil operasi a += 5: "  << a << endl;
+  cout << "Hasil operasi b -= 3: "  << b << endl;
+  cout << "Hasil operasi c *= 3: "  << c << endl;
+  cout << "Hasil operasi d /= 3: "  << d << endl;
+  cout << "Hasil operasi e %= 3: "  << e << endl;
+  cout << "Hasil operasi f <<= 2: " << f << endl;
+
+  return 0;
+}
