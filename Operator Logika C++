@@ -1,0 +1,64 @@
+#include <iostream>
+
+/*
+NAMA    : RIZKI RAMADHANI
+JUDUL   : Operator Logika C++
+BAHASA  : C++
+Tanggal : 27/09/2021
+*/
+
+using namespace std;
+
+int main()
+{
+  cout <<"=========================================================== \n";
+  cout <<"=================== Operator Logika C++ =================== \n";
+  cout <<"=========================================================== \n";
+  cout << "\n";
+
+  bool a = true;
+  bool b = false;
+  bool hasil;
+
+  hasil = a && a;
+  cout << "Hasil dari a && a : " << hasil << endl;
+
+  hasil = a && b;
+  cout << "Hasil dari a && b : " << hasil << endl;
+
+  hasil = a || b;
+  cout << "Hasil dari a || b : " << hasil << endl;
+
+  hasil = b || b;
+  cout << "Hasil dari b || b : " << hasil << endl;
+
+  hasil = !a;
+  cout << "Hasil dari !a : " << hasil << endl;
+
+  hasil = !b;
+  cout << "Hasil dari !b : " << hasil << endl;
+
+  hasil = (false && true) || (true || false);
+  cout << "Hasil: " << hasil << endl;
+
+  hasil = !false && (false || true);
+  cout << "Hasil: " << hasil << endl;
+
+  hasil = ((true && true) || (true || false)) && !true;
+  cout << "Hasil: " << hasil << endl;
+
+  hasil = (5 > 4) && (10 > 9);
+  cout << "(5 > 4) && (10 > 9) : " << hasil << endl;
+
+  hasil = (15 <= 15) && (15 < 15);
+  cout << "(15 <= 15) && (15 < 15) : " << hasil << endl;
+
+  hasil = ('a' == 'a') || ('a' == 'b');
+  cout << "('a' == 'a') || ('a' == 'b') : " << hasil << endl;
+
+  hasil = (10 > 7) && ("maluku" == "maluku");
+  cout << "(10 > 7) && (\"maluku\" == \"maluku\") : "
+       << hasil << endl;
+
+  return 0;
+}
