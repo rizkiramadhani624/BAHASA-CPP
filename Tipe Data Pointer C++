@@ -1,0 +1,26 @@
+#include <iostream>
+
+/*
+NAMA    : RIZKI RAMADHANI
+JUDUL   : Tipe Data Pointer C++
+BAHASA  : C++
+Tanggal : 27/09/2021
+*/
+
+using namespace std;
+
+int main()
+{
+  cout <<"=========================================================== \n";
+  cout <<"============== Contoh Tipe Data Pointer =================== \n";
+  cout <<"=========================================================== \n";
+  cout << "\n";
+
+  string var1 = "Belajar C++ di Harvard University";
+  string* var2 = &var1;
+
+  cout << var1 << endl;
+  cout << var2 << endl;
+
+  return 0;
+}
