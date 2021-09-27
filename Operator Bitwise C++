@@ -1,0 +1,42 @@
+#include <iostream>
+
+/*
+NAMA    : RIZKI RAMADHANI
+JUDUL   : Operator Bitwise C++
+BAHASA  : C++
+Tanggal : 27/09/2021
+*/
+
+using namespace std;
+
+int main()
+{
+  cout <<"=========================================================== \n";
+  cout <<"================= Operator Bitwise C++  =================== \n";
+  cout <<"=========================================================== \n";
+  cout << "\n";
+
+  int a = 181;
+  int b = 108;
+  int hasil;
+
+  hasil = a & b;
+  cout << "Hasil dari a & b : " << hasil << endl;
+
+  hasil = a | b;
+  cout << "Hasil dari a | b : " << hasil << endl;
+
+  hasil = a ^ b;
+  cout << "Hasil dari a ^ b : " << hasil << endl;
+
+  hasil = ~a;
+  cout << "Hasil dari ~a : " << hasil << endl;
+
+  hasil = a >> 1;
+  cout << "Hasil dari a >> 1 : " << hasil << endl;
+
+  hasil = b << 2;
+  cout << "Hasil dari b << 2 : " << hasil << endl;
+
+  return 0;
+}
