@@ -1,0 +1,58 @@
+#include <iostream>
+
+/*
+NAMA    : RIZKI RAMADHANI
+JUDUL   : Operator Perbandingan C++
+BAHASA  : C++
+Tanggal : 27/09/2021
+*/
+
+using namespace std;
+
+int main()
+{
+  cout <<"=========================================================== \n";
+  cout <<"============== Contoh Operator Perbandingan =============== \n";
+  cout <<"=========================================================== \n";
+  cout << "\n";
+  
+  int a = 10;
+  int b = 5;
+  bool hasil;
+ 
+  cout << "Isi Variabel a: " << a << endl;
+  cout << "Isi Variabel b: " << b << endl;
+  cout << endl;
+ 
+  hasil = a == b;
+  cout << "Apakah a == b ? " << hasil << endl;
+ 
+  hasil = a != b;
+  cout << "Apakah a != b ? " << hasil << endl;
+ 
+  hasil = a > b;
+  cout << "Apakah a > b ? " << hasil << endl;
+ 
+  hasil = a < b;
+  cout << "Apakah a < b ? " << hasil << endl;
+ 
+  hasil = a >= b;
+  cout << "Apakah a >= b ? " << hasil << endl;
+ 
+  hasil = a <= b;
+  cout << "Apakah a <= b ? " << hasil << endl;
+  
+  hasil = 'z' == 'Z';
+  cout << "Apakah 'z' == 'Z' ? " << hasil << endl;
+ 
+  hasil = 'z' != 'Z';
+  cout << "Apakah 'z' != 'Z' ? " << hasil << endl;
+ 
+  hasil = "Lampung" == "lampung";
+  cout << "Apakah \"Lampung\" == \"lampung\" ? " << hasil << endl;
+ 
+  hasil = 'A' < 'B';
+  cout << "Apakah 'A' < 'B'? " << hasil << endl;
+ 
+  return 0;
+}
