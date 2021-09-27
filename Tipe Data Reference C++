@@ -1,0 +1,34 @@
+#include <iostream>
+
+/*
+NAMA    : RIZKI RAMADHANI
+JUDUL   : Tipe Data Reference C++
+BAHASA  : C++
+Tanggal : 27/09/2021
+*/
+
+using namespace std;
+
+int main()
+{
+  cout <<"=========================================================== \n";
+  cout <<"============== Contoh Tipe Data Reference ================= \n";
+  cout <<"=========================================================== \n";
+  cout << "\n";
+  
+  int var1 = 100;
+  int &var2 = var1;
+  int &var3 = var1;
+ 
+  cout << var1 << endl;
+  cout << var2 << endl;
+  cout << var3 << endl;
+ 
+  cout << endl;
+ 
+  cout << &var1 << endl;
+  cout << &var2 << endl;
+  cout << &var3 << endl;
+ 
+  return 0;
+}
